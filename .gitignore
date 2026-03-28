@@ -1,0 +1,28 @@
+# Secrets — NEVER commit
+.streamlit/secrets.toml
+frontend/.streamlit/secrets.toml
+
+# Model files — too large for GitHub
+models/
+
+# Reports — generated at runtime
+reports/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data raw files
+data/raw/
