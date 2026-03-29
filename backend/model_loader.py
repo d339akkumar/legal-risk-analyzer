@@ -1,15 +1,10 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from pathlib import Path
 
-# ✅ Fix path
-BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_PATH = BASE_DIR / "models" / "bert_legal_model"
+# Change this one line:
+MODEL_PATH = "Deepakkumar9897/bert-legal-risk"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# Optional debug
-print("Loading model from:", MODEL_PATH)
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
