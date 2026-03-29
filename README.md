@@ -1,32 +1,33 @@
-\# Legal Risk Analyzer
+# Legal Risk Analyzer
 
 AI-powered legal document risk identification system using BERT and Groq AI.
 
 
 
-\## Live Demo
+## Live Demo
 
 https://legal-risk-analyzer-enhqtjmflverkapapphqv6z.streamlit.app/
 
 
 
-\## Features
+## Features
 
-\- BERT-based legal clause risk classification
+- BERT-based legal clause risk classification
 
-\- AI-powered contract summarization (Groq/Llama)
+- AI-powered contract summarization (Groq/Llama)
 
-\- Fraud and anomaly detection
+- Fraud and anomaly detection
 
-\- PDF report generation
+- PDF report generation
 
-\- OCR support for scanned documents
+- OCR support for scanned documents
+  
 
 
 
-\## Tech Stack
+## Tech Stack
 
-\- Python, Streamlit, PyTorch, HuggingFace Transformers
+- Python, Streamlit, PyTorch, HuggingFace Transformers
 
-\- Groq API (Llama 3.1), ReportLab, pdfplumber
+- Groq API (Llama 3.1), ReportLab, pdfplumber
 
